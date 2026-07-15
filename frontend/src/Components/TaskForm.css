@@ -1,0 +1,77 @@
+.task-form-section {
+    width: 100%;
+    max-width: 350px;     
+    padding: 20px;         
+    margin: 0 auto;        
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.task-form-section h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #334155;
+}
+
+.form-group {
+    margin-bottom: 16px;  
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #475569;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px 12px;    
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;    
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #e38237;
+}
+
+.form-group textarea {
+    height: 80px;
+    resize: none;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #e38237 0%, #f5771c 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-btn:hover {
+    background: linear-gradient(180deg, #d27b38 0%, #b35a1a 100%);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .task-form-section {
+        max-width: 100%;   
+        margin: 0;         
+        box-shadow: none;  
+        padding: 15px 0;   
+    }
+}
